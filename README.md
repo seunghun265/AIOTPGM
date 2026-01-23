@@ -12,4 +12,4 @@ AIOT 프로그래밍
   + pandas
   + matplotlib
   + tensorflow
-  + pandas
+  + keras
