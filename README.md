@@ -1,2 +1,3 @@
-# AIOTPGM 반도체 설계 academy
+### AIOTPGM 반도체 설계 academy
+/hr
 AIOT 프로그래밍
