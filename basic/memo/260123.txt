@@ -1,0 +1,74 @@
+가르치는 것은 두 번 배우는 것이다.
+
+https://github.com/
+
+readme.md
+	d2coding(네이버에서 만든 개발자를 위한 폰트)
+
+마크다운
+
+함수 : 변수 + 명령
+
+def funcName(parameters):	#함수 정의
+	function body
+	return expression
+
+funcName(arguments)		#함수 호출
+-------------------------------------------
+def swapFunc(x, y):
+    temp = x            	#
+    x = y               	# 전통적인 교체
+    y = temp            	#
+    return x, y
+
+num1 = 1
+num2 = 2
+print(f"num1 = {num1}, num2 = {num2}")
+num1, num2 = swapFunc(num1, num2)
+print(f"num1 = {num1}, num2 = {num2}")
+num1, num2 = swapFunc(5,6)
+print(f"num1 = {num1}, num2 = {num2}")
+
+x = 1
+y = 2
+print(f"x = {x}, y = {y}")
+x, y = y, x                 # 파이썬 교체
+print(f"x = {x}, y = {y}")
+-------------------------------------------
+
+파이썬은 기본적으로 위에 정의되어 있는 함수를 호출할 수 있다.
+함수 안에서는 위, 아래 상관없이 호출할 수 있음.
+
+default arguments
+keyword arguments
+positional arguments
+various args
+
+recursive function 되부름, 자기호출, 재귀
+(함수 내에서 자신을 호출하는 함수)
+
+factorial(5)
+	5 * factorial(4)
+	    4 * factorial(3)   	
+	        3 * factorial(2) 
+		    2 * factorial(1)
+			1   
+
+
+fib(3)		 + 			fib(2)
+fib(2) 		 + fib(1)		fib(1) + fib(0)
+fib(1) + fib(0) 
+
+
+variable scope
+local(지역), golbal(전역)
+
+gx= 100
+defmyfunc():
+	global gx # 전역변수gx를사용한다. 
+		  # 위 라인이 없는 경우와 있는 경우를 설명
+	gx= 200
+	print(gx)
+
+myfunc()
+print(gx)
