@@ -1,0 +1,31 @@
+chrome - google 렌즈로 검색 - 범위 지정 - 텍스트 복사
+
+
+파이썬 버전 11에서 tensorflow 지원
+
+파이썬 버전 변경
+
+1. 
+python.org - download - windows - 버전 선택(버전 10 계열) - Download Windows installer (64-bit)
+
+2.
+시스템 환경 변수 편집 - 환경 변수 - path 편집
+	C:\Users\SAMSUNG\AppData\Local\Programs\Python\Python310
+	C:\Users\SAMSUNG\AppData\Local\Programs\Python\Python310\Scripts
+
+3. VS Code open
+	Ctrl + Shift + P - 파이썬 인터프리터 선택 - 
+	터미널 오픈 : Ctrl + ` : Command prompt
+	>python.exe -m pip install --upgrade pip
+	>pip install numpy
+	>pip install tensorflow==2.12.0
+
+
+https://transcranial.github.io/keras-js/#/
+
+"tensorflow playground" 검색
+
+
+
+
+

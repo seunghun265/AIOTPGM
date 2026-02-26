@@ -1,0 +1,31 @@
+target	label	참값
+attribute   feature
+
+https://text-to-speech.imtranslator.net/
+"맞춤법 검사기"
+
+server, client
+localhost, port
+
+모델링 (fit 함수로 모델링) : 학습
+
+data (수집 및 전처리)	모델링(모델 결정 및 학습) 예측(새로운 데이터로 예측)
+
+x_train,x_test,y_train,y_test=train_test_split(digit.data,digit.target,train_size=0.6)
+훈련 데이터, 테스트 데이터
+
+cross_val_score(s,digit.data,digit.target,cv=5) # 5-겹 교차검증
+
+
+llm, gpt
+llama + RAG
+
+수면(7~9)
+
+"geeks for geeks tensorflow" 검색
+
+활성함수, 손실함수, Weight 값 갱신
+
+"mnist draw" 검색
+
+

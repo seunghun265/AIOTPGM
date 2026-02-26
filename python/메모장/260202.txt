@@ -1,0 +1,34 @@
+CLI, GUI
+
+window
+OS : windows
+
+GNU : GNU is Not Uninx
+
+반응형(responsive)
+
+pixabay
+
+callback함수
+
+focus blur
+
+ADP ADsP 자격증
+
+공공데이터
+https://www.data.go.kr/
+
+
+벡터화연산
+
+
+   x%3 == 0
+   x%4 == 1
+   (x%3 == 0) & (x%4 == 1)
+
+
+
+
+
+
+

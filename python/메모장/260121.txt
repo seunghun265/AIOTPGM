@@ -1,0 +1,156 @@
+variable : 메모리 주소를 대표하는 기호
+
+= assignment(할당, 대입)
+오른쪽 수식의 결과를 왼쪽 변수에 할당
+
+variable = expression
+	   constant상수		x = 100   literal
+	   variable변수		x = y
+	   operator연산자	x = x + 1
+	   function함수		x = sum(1, 2)
+
+표기법
+	카멜  		sumOfNumber
+	파스칼 		SumOfNumber
+	스네이크	sum_of_number
+	케밥		sum-of-number
+
+닌자 코드 ↔ 클린 코드
+
+
+a = 1	1이라는 객체가 만들어지고 그 객체의 주소가 a에 할당
+b = 2	2이라는 객체가 만들어지고 그 객체의 주소가 b에 할당
+c = 3	3이라는 객체가 만들어지고 그 객체의 주소가 c에 할당
+d = 1 	1이라는 객체가 이미 만들어져 있으므로 그 주소를
+	d에 할당함, 그러므로 a와 d는 같은 주소를 가짐
+
+산술 연산자
+	**, *, /, %, //, +, -
+시프트 연산자
+	<<, >>
+비트 연산자
+	~, &, ^, |
+비교(관계) 연산자
+	>, >=, <, <=, ==, !=
+논리 연산자
+	not, and, or
+할당 연산자
+	=, **=, *=, /=, %=, //=, +=, -=, <<=, >>=, 
+	&=, ^=, |=
+콤마 연산자
+	,
+
+사각형의 높이와 너비를 입력받아 면적을 출력하는 프로그램 작성
+base = int(input("사각형의 너비 입력 : "))
+height = int(input("사각형의 높이 입력 : "))
+
+area = base * height
+
+print(f"높이가 {height}이고 밑변이 {base}인 사각형의 면적은 {area} 입니다.")
+
+형변환함수
+int, float, str
+
+입력함수 
+input
+
+
+
+제어문(Control statement)
+	기본적으로 먼저 기술한 명령을 먼저 실행하고 
+	그 다음 명령들을 차례로 실행하는데, 
+	실행의 순서(흐름)를 제어하는 문장
+
+선택문
+	if, match~case
+반복문
+	for, while, [do~while]
+무시문
+	break, continue
+복귀문
+	return
+
+조건식(비교 or 논리)
+수식의 결과가 논리값인 수식
+
+
+leap year problem
+4의 배수이고, 100의 배수는 아니지만, 400의 배수인 년도는 윤년(leap year)입니다.
+그렇지 않으면 평년(common year)입니다.
+년도(해)를 입력받아 윤년 여부를 판별하는 프로그램을 작성하세요
+
+factorial
+n! = n * n-1 * n-2 * ... * 1
+
+# 단을 입력 받아 해당 단을 출력하는 프로그램 작성
+# 0을 입력하기 전까지 계속 실행
+
+while True:
+    dan = int(input("단을 입력하세요 (0을 입력하면 종료): "))
+    if dan == 0:
+        break
+    
+    for i in range(1, 10):
+        print(f"{dan} × {i} = {dan * i}")
+    print()
+
+
+1부터 100까지의 수 중에 7의 배수를 생략한 수들의 합을 구하시오.
+sum = 0
+
+for i in range(1, 101):
+	if i%7 == 0:
+		continue
+	sum += i
+
+print(f"1부터 100까지의 수 중의 7의 배수를 생략한 수들의 합 = {sum}")
+
+
+직각 삼각형, 삼각형, 마름모 출력
+
+*
+**
+***
+****
+*****
+
+    *
+   **
+  ***
+ ****
+*****
+
+    *
+   ***
+  *****
+ *******
+*********
+
+    *
+   ***
+  *****
+ *******
+*********  
+ *******
+  *****
+   ***
+    *
+
+n = int(input("라인수를 입력하세요: "))
+
+print("직각 삼각형:")
+for i in range(1, n + 1):
+    print("*" * i)
+
+for i in range(1, n + 1):
+    print(" " * (n - i) + "*" * i)
+
+print("\n삼각형:")
+for i in range(1, n + 1):
+    print(" " * (n - i) + "*" * (2 * i - 1))
+
+print("\n마름모:")
+for i in range(1, n + 1):
+    print(" " * (n - i) + "*" * (2 * i - 1))
+for i in range(n - 1, 0, -1):
+    print(" " * (n - i) + "*" * (2 * i - 1))

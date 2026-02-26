@@ -1,0 +1,22 @@
+"파이썬 메모리 구조" 검색
+
+copy(복사)
+얕은 복사 : 같은 주소 공유
+깊은 복사 : 다른 주소를 가짐
+
+vs code 코드 자동 정렬
+
+https://wikidocs.net/
+
+집합 : 순서 X, 중복 X
+
+https://text-to-speech.imtranslator.net/
+https://nara-speller.co.kr/speller/
+
+객체지향에서 멤버 변수는 모두 private로 하고
+필요한 경우에 setter나 getter를 만들어서 제공해줘라.
+
+
+
+
+

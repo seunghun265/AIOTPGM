@@ -1,0 +1,101 @@
+선택 - 집중 - 몰입
+
+CLI : command line interface(shell)
+GUI : graphic user interface
+
+https://www.python.org/
+PATH 추가 후 install
+
+윈도우+R : cmd
+>python --version
+시작 - 시스템 환경 변수 편집 - 환경변수
+경로 추가
+	python
+	python/Scripts
+
+https://ftpserver.ksecole.kr/
+id : aiot
+pwd : aiot2026
+
+단톡방 이름 : aiot2026
+참여 코드 : aiot
+입장 후 간단한 인사 부탁합니다.
+
+https://www.tiobe.com/tiobe-index/
+
+>copy con hello.py
+print("Hello python world!!!")
+print("Good day^^")
+^Z(EOF : End Of File)
+
+>dir
+>type hello.py
+>python hello.py
+
+파일 생성
+	copy con
+	메모장
+	실행
+		error message가 나오면	
+		파일 내용 편집(debugging)
+
+IDE
+
+https://www.spyder-ide.org/
+https://www.jetbrains.com/pycharm/download
+https://code.visualstudio.com/
+
+가상환경
+>cd Documents
+>cd AIOT
+>md projects
+>cd projects
+>md testVE
+>cd testVE
+>python -m venv virtualEv
+>dir 
+>virtualEv\Scripts\activate
+( )>virtualEv\Scripts\deactivate
+>
+
+
+https://wikidocs.net/
+
+학습 효율성 피라미드
+
+
+>pip install notebook
+>jupyter notebook
+
+str1 = "abcd"
+str2 = 'defg'
+str3 = '''1234567890'''
+str4 = """abcdefghig"""
+str5 = str1 + str2
+str6 = str5 + "hijk"
+
+print(str1, str2)
+print("첫 번째 문자열" + str2)
+print("변수에 있는 값을 출력 %s 값 출력 가능"%str3)
+print("두 변수에 %s 있는 문자열 출력  %s"%(str1, str2))
+print("첫 번째 {0}변수의 값 {0}, 두 번째 변수의 값 {1} ".format(str5, str6))
+print(f"{str1}, {str2}, {str3}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

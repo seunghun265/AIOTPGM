@@ -1,0 +1,45 @@
+data   <   field  <   record < table  < DB
+        (attribute)   (tuple)
+	    열		행
+	   column	row
+
+series
+dataframe
+
+titanic.csv download
+
+notebooklm
+
+"AI agent" 만들기
+
+xml, json
+url, uri, urn
+
+tts, stt
+
+
+AI < ML < DL
+
+scikit-learn ⇋ sklearn
+
+dataset
+target
+feature(꽃받침 길이, 너비, 꽃잎 길이, 너비)
+
+데이터 학습 => 예측
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

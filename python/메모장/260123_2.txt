@@ -1,0 +1,10 @@
+https://wikidocs.net/
+"geeks for geeks python" 검색
+
+(괄호), {중괄호}, [대괄호]
+
+컨테이너
+리스트
+
+.sort는 원본 리스트를 변경
+sorted()는 원본은 유지하고 정렬된 리스트 줌

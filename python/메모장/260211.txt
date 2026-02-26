@@ -1,0 +1,27 @@
+ftpserver.ksecole.kr
+id : aiot
+pwd : aiot2026
+
+openCV 폴더에 있는 파일 다운로드
+
+화소(pixel) : 영상에서 가장 작은 구성 단위
+
+
+https://arena.ai/ko
+LM 기반 대화형-생성형 AI들을 자유롭게 이용해보고 비교하며 평가할 수 있는 웹사이트
+
+ASCII code
+10진	16진	문자
+0	0	null
+7	7	bell
+10	A	LF
+13 	D	CR
+27	1B	ESC
+32	20	SP(space bar, blank)
+48	30	'0'
+65	41	'A'
+97	61	'a'
+
+scan code
+입력 장치가 특정 동작(키 누름 등)을 감지했을 때 생성하는 고유한 코드 값
+

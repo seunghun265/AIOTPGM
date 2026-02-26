@@ -1,0 +1,26 @@
+에빙하우스 망각곡선
+
+객체지향언어의 3대 특징
+1. 캡슐화
+2. 상속
+3. 다향성
+
+is-a, has-a
+
+truthy, falsy
+논리값 : True, False
+
+ASCII code 값
+A = 41h = 65
+a = 61h = 97
+blank = 20h = 32
+'0' = 30h = 48
+
+
+def abcd(student):
+	return student.number
+
+lambda student: student.number
+
+chatgpt prompt
+"여러 개의 튜플을 가지고 있는 리스트를 정렬하려면"
